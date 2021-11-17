@@ -1,0 +1,13 @@
+<ion-item *ngIf="!protocol[protocol.COL_ID] ||
+                 protocol.canEditProtocol ||
+                 (protocol.workflowStep && protocol.workflowStep.type !== 'final')"
+>
+<ion-label>
+        <span>
+            {{ 'protocol.Protocol file' | translate:params }}
+        </span>
+    </ion-label>
+    <span class="ion-align-items-end">
+        <ion-button (click)="editProtocolFile()">{{ 'edit' | translate:params }}</ion-button>
+    </span>
+</ion-item>

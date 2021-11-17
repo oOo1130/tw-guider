@@ -1,0 +1,242 @@
+{
+  "close": "Close",
+  "Search": "Search",
+  "Search all guides": "Search all guides",
+  "Search guides by current category": "Search guides by current category",
+  "send": "Send",
+  "Logout": "Logout",
+  "back": "Back",
+  "Wrong password!": "Wrong password!",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "title": "Title",
+  "All": "All",
+  "Final": "Final",
+  "Enable USB mode": "Enable USB mode",
+  "Status": "Status",
+  "Open": "Open",
+  "Done": "Done",
+  "dismiss": "Dismiss",
+  "save_before_close_warning": "Save changes before closing?",
+  "dont_save": "Don't save",
+  "cancel": "Cancel",
+  "noResults": "No results",
+  "Order": "Order",
+  "created_by": "Created By",
+  "updated_by": "Updated By",
+  "to guide": "To Guide",
+  "exitApp": "Are you sure you want to exit the app?",
+  "about": {
+    "header": "About",
+    "App Version": "App Version",
+    "API Version": "API Version",
+    "Copyright": "Copyright"
+  },
+  "log": {
+    "header": "Logs"
+  },
+  "start": {
+    "header": "Start"
+  },
+  "sync-modal": {
+    "header": "Sync Status",
+    "Last successful sync date:": "Last successful sync date:",
+    "There is data available for synchronization from the server.": "There is data available for synchronization from the server.",
+    "Synchronize Data": "Synchronize Data",
+    "Resume": "Resume",
+    "Cancel": "Cancel",
+    "Stop": "Stop",
+    "In progress": "In progress",
+    "(Prepare data)": "(Prepare data)",
+    "(Prepare data for resume)": "(Prepare data for resume)",
+    "Paused": "Paused",
+    "Failed": "Failed",
+    "Success": "Success",
+    "No data for sync": "No data for sync",
+    "No data for pull": "No data for pull",
+    "There is data available for pushing to the server.": "There is data available for pushing to the server.",
+    "No network connection.": "No network connection.",
+    "Data synchronization is not yet possible.": "Data synchronization is not yet possible.",
+    "Data is sent to the server": "Data is sent to the server.",
+    "Data has been sent to the server": "Data has been sent to the server.",
+    "Sending data to the server failed.": "Sending data to the server failed.",
+    "Start sync to get data": "Start sync to get data"
+  },
+  "guide-categories": {
+    "category": "Category",
+    "no-category": "Without Category",
+    "categories": "Categories"
+  },
+  "guides": {
+    "header": "Guides",
+    "duration": "Duration",
+    "revision": "Revision",
+    "Description": "Description",
+    "Show Guide": "Show Guide",
+    "New Protocol": "New Protocol",
+    "Protocol": "Protocol",
+    "specifySearchMessage": "There are {{ guidesCount }} guides. Specify a detailed search",
+    "specifyMoreSearchMessage": "There are {{ guidesCount }} guides. Specify a more detailed search",
+    "Show Collection": "Show Collection",
+    "Information": "Information"
+  },
+  "feedback": {
+    "header": "Feedback",
+    "Feedback list": "Feedback list",
+    "Description": "Description",
+    "Note description": "Note description",
+    "No feedbacks": "No feedbacks registered"
+  },
+  "protocol": {
+    "Protocols": "Protocols",
+    "Protocol": "Protocol",
+    "Workflow Step": "Workflow Step",
+    "Assignee": "Assignee",
+    "Protocol was saved": "Protocol was saved",
+    "Have it checked": "Have it checked",
+    "commented": "Commented: {{ comment }}",
+    "workflow_step_changed": "Workflow Step changed from '{{ oldWorkflowStepName }}' to '{{ newWorkflowStepName }}'",
+    "Comment": "Comment",
+    "Protocol file": "Protocol file",
+    "Workflow process": "Workflow process",
+    "Workflow history": "Workflow history",
+    "Created": "Created"
+  },
+  "guide": {
+    "header": "Guide",
+    "No information here yet.": "No information here yet.",
+    "Assets": "Assets",
+    "Information": "Information",
+    "Restart": "Restart Guide"
+  },
+  "profile": {
+    "header": "Profile",
+    "Profile": "Profile",
+    "ID": "ID",
+    "Username": "Username",
+    "Full name": "Full name",
+    "Email": "Email",
+    "Last Login At": "Last Login At",
+    "Groups": "Groups",
+    "Roles": "Roles",
+    "Company": "Client name"
+  },
+  "synchronization-component": {
+    "Sync Modes": "Sync Modes",
+    "Enable Resume Synchronisation": "Enable Resume Synchronisation",
+    "Manually": "Manually",
+    "Online": "Online",
+    "Periodic": "Periodic",
+    "Re-sync data": "Re-sync all data (deletes not synced local data)!",
+    "Sync was canceled.": "Sync was canceled.",
+    "Now is manually mode.": "Now is manually mode.",
+    "Now is network connection mode.": "Now is network connection mode.",
+    "Now is periodic mode (every 15 seconds)": "Now is periodic mode (every 15 seconds)",
+    "Failed to remove data": "Failed to remove data",
+    "All files was deleted": "All files was deleted",
+    "The database is cleared.": "The database is cleared.",
+    "All data was cleared": "All data was cleared",
+    "Synchronize Data": "Synchronize Data",
+    "Are you sure you want to overwrite the data?": "Are you sure you want to overwrite the file?"
+  },
+  "login": {
+    "Username": "Username",
+    "Password": "Password",
+    "Login": "Login",
+    "You are logged in.": "You are logged in.",
+    "You are logged out.": "You are logged out.",
+    "Please, login": "Please, login"
+  },
+  "validation": {
+    "Description is required": "Description is required",
+    "Username is required": "Username is required",
+    "Password is required": "Password is required",
+    "Username and password is required": "Username and password is required",
+    "Validation error": "Validation error",
+    "Wrong password or login!": "Wrong password or login!",
+    "Wrong password!": "Wrong password!",
+    "You are not authorized.": "You are not authorized.",
+    "QR-code has wrong information": "QR-code has wrong information",
+    "max_characters": "The maximum number of characters in a {{property_name}} should be {{max}} characters.",
+    "Title is required": "Title is required",
+    "nothing_to_save": "Nothing to save",
+    "user_blocked": "You are blocked, contact an administrator",
+    "is_app_version_old": "The application version is outdated. Please update the application.",
+    "There was an error setting up the application. Please try again.": "There was an error setting up the application. Please try again.",
+    "user_cant_login": "You don't have rights to log in"
+  },
+  "qr": {
+    "Application was successfully configured": "Application was successfully configured",
+    "The Guider app enables the display of digital instructions (assembly, training, etc.)": "The Guider app enables the display of digital instructions (assembly, training, etc.)",
+    "The app only works with a customer account. Please contact taktwerk GmbH for this": "The app only works with a customer account. Please contact taktwerk GmbH for this",
+    "Or try the demo": "Or try the demo",
+    "Scan the received": "Scan the received",
+    "QR-Code": "QR-Code",
+    "Setup": "Setup",
+    "Close Scanner": "Close Scanner"
+  },
+  "language-selector": {
+    "Language": "Language"
+  },
+  "app": {
+    "You need to swipe data and reinstall app": "You need to swipe data and reinstall app"
+  },
+  "date": {
+    "ago": {
+      "just_now": "Just now",
+      "year": "{{ counter }} year ago",
+      "month": "{{ counter }} month ago",
+      "week": "{{ counter }} week ago",
+      "day": "{{ counter }} day ago",
+      "hour": "{{ counter }} hour ago",
+      "minute": "{{ counter }} minute ago",
+      "second": "{{ counter }} second ago",
+      "years": "{{ counter }} years ago",
+      "months": "{{ counter }} months ago",
+      "weeks": "{{ counter }} weeks ago",
+      "days": "{{ counter }} days ago",
+      "hours": "{{ counter }} hours ago",
+      "minutes": "{{ counter }} minutes ago",
+      "seconds": "{{ counter }} seconds ago"
+    }
+  },
+  "alert": {
+    "model_was_saved": "{{ model }} was saved",
+    "model_was_deleted": "{{ model }} was deleted",
+    "are_you_sure_delete_model": "Are you sure to delete this entry?",
+    "are_you_sure_go_back": "There are changes",
+    "resumed": "Resumed",
+    "saved": "Saved"
+  },
+  "guider": {
+    "header": "Guide Capture",
+    "No information here yet.": "No information here yet."
+  },
+  "editguide": {
+    "header": "Edit Guide",
+    "No information here yet.": "No information here yet."
+  },
+  "editguidestep": {
+    "header": "Edit Step",
+    "No information here yet.": "No information here yet.",
+    "Description": "Description",
+    "Note description": "Note description"
+  },
+  "addstep": {
+    "header": "Add Step",
+    "No information here yet.": "No information here yet.",
+    "Description": "Description",
+    "Note description": "Note description",
+    "Open in editor": "Open in editor"
+  },
+  "CKEditor": {
+    "header": "Text Editor"
+  },
+  "guidestep": {
+    "add": "Add Step",
+    "edit": "Edit Step",
+    "Open in editor": "Open in editor",
+    "Description": "Description"
+  }
+}

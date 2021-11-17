@@ -1,0 +1,12 @@
+{
+  "name": "guide",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "hooks": {
+    "build:before": "./scripts/build-before.js",
+    "serve:before": "./scripts/build-before.js"
+  }
+}

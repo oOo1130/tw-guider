@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-with-sync-indicator></ion-menu-with-sync-indicator>
+    </ion-buttons>
+    <ion-title>
+      {{ 'feedback.header' | translate:params }}
+    </ion-title>
+   
+
+    <ion-buttons slot="primary">
+      <ion-back-button text="" style="color: #ffffff;"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab class="big-fab" vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="attach"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button (click)="addFileCapacitor()" color="primary">
+        <ion-icon name="folder"></ion-icon>
+      </ion-fab-button>
+      <!-- <ion-fab-button color="primary">
+        <ion-icon name="folder" style="position: absolute;"></ion-icon>
+        <input type="file" style="opacity: 0;height: 100%;" (change)="addFile($event)" #filePicker/>
+      </ion-fab-button> -->
+      <ion-fab-button (click)="addPhotoUsingCamera()" color="primary">
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button (click)="addVideoUsingCamera()" color="primary">
+        <ion-icon name="videocam"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+  
+  <form>
+    <ion-list>
+      <ion-item class="feedback-title">
+        <ion-label position="floating">
+          {{ 'title' | translate:params }}:
+        </ion-label>
+        <ion-input [(ngModel)]="model.title" name="title" placeholder="{{ defaultTitle }}" clear-input>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">{{ 'feedback.Description' | translate:params }}:</ion-label>
+        <ion-textarea [(ngModel)]="model.description" name="description"
+          placeholder="{{ 'feedback.Note description' | translate:params }}" rows="5" cols="33" style="display: block;">
+        </ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          {{ 'Status' | translate:params }}
+        </ion-label>
+        <span>
+          {{ model.status | translate:params }}
+        </span>
+      </ion-item>
+    </ion-list>
+
+    <div *ngIf="model.attached_file" class="top-file">
+      <model-assetcomponent [model]="model" mini="true"></model-assetcomponent>
+    </div>
+
+    <ion-row class="buttons">
+      <ion-col>
+        <ion-button expand="block" (click)="save()">
+          {{ 'save' | translate:params }}
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button *ngIf="model[model.COL_ID]" color="danger" expand="block" (click)="showDeleteAlert()">
+          {{ 'delete' | translate:params }}
+        </ion-button>
+
+        <ion-button *ngIf="!model[model.COL_ID]" color="light" expand="block" (click)="backToFeedbackList()">
+          {{ 'Cancel' | translate:params }}
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>

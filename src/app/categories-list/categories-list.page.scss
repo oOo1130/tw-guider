@@ -1,0 +1,84 @@
+ion-segment-button {
+  color: white !important;
+}
+
+ion-segment {
+  display: flex;
+  justify-content: center !important;
+
+  background: #173262;
+  padding: 0;
+  width: 109% !important;
+  margin-left: -16px;
+}
+
+.guides {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  ion-row {
+    width: 100%;
+  }
+  ion-col {
+    display: flex;
+    width: 100%;
+  }
+  ion-card {
+    width: 100%;
+  }
+}
+
+.shortname-label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 5px 12px;
+  /* text-transform: uppercase; */
+  font-size: 12px;
+  color: #fff;
+  background-color: #6c757d;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.guide-description {
+  white-space: pre-line;
+  font-size: 120%;
+}
+
+.guide-preview .img {
+  height: 12rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.guide-category {
+  margin-top: 8px;
+
+  ion-item {
+    --min-height: 52px;
+    border-radius: 8px;
+    font-weight: 400;
+  }
+}
+
+.category-content {
+  margin-top: 12px;
+}
+
+.search-categories {
+  margin-top: 5px;
+}
+
+.align__all_center {
+  * {
+    display: block;
+    text-align: center;
+  }
+}
